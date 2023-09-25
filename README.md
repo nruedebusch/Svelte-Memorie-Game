@@ -1,38 +1,22 @@
-# create-svelte
+Svelte Matching Game
 
-Everything you need to build a Svelte project, powered by [`create-svelte`](https://github.com/sveltejs/kit/tree/master/packages/create-svelte).
+A simple web-based matching game built with Sveltekit. Test your memory by matching pairs of emojis before time runs out!
+Features
 
-## Creating a project
+    Dynamic grid generation with random emojis.
+    Timer to track your gameplay time.
+    Interactive card selection and matching.
+    Win or lose messages to celebrate your achievements.
 
-If you're seeing this, you've probably already done this step. Congrats!
+How to Play
 
-```bash
-# create a new project in the current directory
-npm create svelte@latest
+    Click the "Play" button to start the game.
+    Click on cards to flip them.
+    Match pairs of emojis to remove them.
+    Complete the game before time reaches zero to win.
 
-# create a new project in my-app
-npm create svelte@latest my-app
-```
 
-## Developing
+Technologies Used
 
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
-
-```bash
-npm run dev
-
-# or start the server and open the app in a new browser tab
-npm run dev -- --open
-```
-
-## Building
-
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+    Sveltekit - A JavaScript framework for building user interfaces.
+    HTML and CSS - For structuring and styling the game.
